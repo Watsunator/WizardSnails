@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <!--Meta data info-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ever heard of wizard snails? Ever wondered if they're actually piano snails? This site is all about the freshwater wizard snail!">
+    <meta content="whitewizardsnails" property="og:title">
+    <meta property="og:type" content="website">
+    <!--<meta content"photo link goes here for social media photo" property="og:image">-->
+    <!--<meta property="og:url" content="url goes here for social media posts">-->
+    <!--This needs to change for every html doc in the site-->
+    <title></title>
+</head>
+
+<body>
+
+<header>
+    <!--Needs to change for each html page of the site-->
+    <h1 id="title"></h1>
+    <p id="site_description"></p>
+    <!--This is the Font Selector and needs to be present for each page-->
+    <label for="font-select">Choose font:</label>
+    <select id="font-select">
+        <option value="opendyslexic">OpenDyslexic</option>
+        <option value="default">Default (Arial)</option>
+    </select>
+</header>
+
+<nav aria-label="Site navigation bar">
+
+</nav>
+
+<main>
+
+</main>
+
+<footer id="website_footer" class="footer">
+    <p>&copy; 2026 ALittleBird All Rights Reserved.</p>
+    <a href="#title">Back to the top</a>
+    <a href="index.html">Home</a>
+    <a href="mailto:littlebirdthatcould@gmail.com">Send Email</a>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
